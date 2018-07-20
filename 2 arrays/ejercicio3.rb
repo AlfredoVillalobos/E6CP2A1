@@ -5,3 +5,15 @@
  # 4. Crear un método que incrementa todos los elementos en una unidad y devuelva un arreglo nuevo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+
+def eleminar(a)
+  a.each do |ele|
+    if ele.even?
+      a.delete(ele)
+    end
+  end
+end
+
+eleminar(a)
+
+print a

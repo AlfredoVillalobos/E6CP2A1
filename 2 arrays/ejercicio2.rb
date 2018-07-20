@@ -10,3 +10,24 @@
 #    invertir el orden de los elementos en un arreglo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+
+print a
+a.shift(1)
+puts
+
+print a
+a.pop
+puts
+
+a.delete_at(a.length/2) if a.length.odd?
+print a
+puts 
+
+a.pop if a != 1
+print a
+puts 
+
+
+
+
+
